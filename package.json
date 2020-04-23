@@ -29,7 +29,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-uncss": "^1.0.6",
-    "gulp-w3c-html-validator": "^2.0.0"
+    "gulp-w3c-html-validator": "^2.0.0",
+    "lorem-ipsum": "^2.0.3"
   },
   "dependencies": {
     "gulp-cssnano": "^2.1.3"

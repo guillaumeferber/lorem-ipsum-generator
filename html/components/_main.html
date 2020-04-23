@@ -1,0 +1,27 @@
+<h1 class="text-center my-5">Lorem Ipsum Generator</h1>
+<fieldset class="m-auto w-75">
+	<form novalidate name="lorem_ipsum_form">
+		<div class="row align-items-end mb-5">
+			<div class="col-md-8 col-xs-12">
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<label class="d-block" for="paragraph"><h4>Number of paragraphs</h4></label>&nbsp;<input type="number" name="paragraph" id="paragraph">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<label class="d-block" for="sentence"><h4>Number of sentences</h4></label>&nbsp;<input type="number" name="sentence" id="sentence">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-12 text-right">
+				<button type="reset" name="reset" class="btn btn-info">Reset</button>
+				<button type="submit" name="submit" class="btn btn-primary">Generate</button>
+			</div>
+		</div>
+	</form>
+	<div class="row">
+		<div class="col-3 ml-auto text-right">
+			<button id="copy" class="btn btn-danger">Copy</button>
+		</div>
+	</div>
+	<section class="c-section results mt-3" id="output"></section>
+</fieldset>

@@ -1,0 +1,32 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--sans-serif);
+	line-height: 1.2;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 200%;
+	margin: .5em 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+select {
+	font: inherit;
+	background: hsla(0,0%,100%,.6);
+}
+
+p:first-of-type {
+	margin-top: 0;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
